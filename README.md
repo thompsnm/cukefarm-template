@@ -1,4 +1,4 @@
-Cucumber Template
+CukeFarm Template
 ===
 
 # Setup
