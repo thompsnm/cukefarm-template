@@ -11,15 +11,11 @@ module.exports = function(grunt) {
       },
       chrome: {
         options: {
+          webdriverManagerUpdate: true,
           args: {
             browser: 'chrome'
           }
         }
-      }
-    },
-    shell: {
-      webdriverManagerUpdate: {
-        command: "node_modules/.bin/webdriver-manager update"
       }
     },
     connect: {
@@ -31,7 +27,7 @@ module.exports = function(grunt) {
       }
     }
   });
-  grunt.registerTask('test', ['shell:webdriverManagerUpdate', 'protractor:chrome']);
+  grunt.registerTask('test', 'protractor:chrome');
   return grunt.registerTask('default', ['connect', 'test']);
 };
 
