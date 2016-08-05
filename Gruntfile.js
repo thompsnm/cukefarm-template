@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
   require('time-grunt')(grunt);
   require('jit-grunt')(grunt, {
-    protractor: 'grunt-protractor3-runner',
+    protractor: 'grunt-protractor-runner',
     connect: 'grunt-contrib-connect'
   });
   grunt.initConfig({
