@@ -1,8 +1,8 @@
-var World;
-
-World = require('cukefarm').World;
+var World = require('cukefarm').World;
+var {defineSupportCode} = require('cucumber');
 
 World.prototype.pageObjectMap = require('./PageObjectMap');
 
-module.exports.World = World;
-
+defineSupportCode(function({setWorldConstructor}) {
+  setWorldConstructor(World);
+});

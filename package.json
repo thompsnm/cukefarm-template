@@ -5,8 +5,9 @@
   "author": "Nathan Thompson",
   "license": "MIT",
   "devDependencies": {
-    "cucumber": "^0.9.2",
-    "cukefarm": "^3.0.1",
+    "@darrinholst/protractor-cucumber-framework": "^1.0.1",
+    "cucumber": "^2.0.0-rc.7",
+    "cukefarm": "git+ssh://git@github.com:thompsnm/cukefarm.git#a1d3f7daba330cdcd9e1a02083ab826908aa2e02",
     "express": "^4.13.1",
     "globule": "^0.2.0",
     "grunt": "^0.4.5",
@@ -14,8 +15,7 @@
     "grunt-contrib-connect": "^0.10.1",
     "grunt-protractor-runner": "^3.0.0",
     "jit-grunt": "^0.9.0",
-    "protractor": "^3.0.0",
-    "protractor-cucumber-framework": "^0.3.2",
+    "protractor": "5.0.0",
     "time-grunt": "^1.0.0"
   },
   "scripts": {
