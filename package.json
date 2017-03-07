@@ -7,7 +7,7 @@
   "devDependencies": {
     "@darrinholst/protractor-cucumber-framework": "^1.0.1",
     "cucumber": "^2.0.0-rc.7",
-    "cukefarm": "git+ssh://git@github.com:thompsnm/cukefarm.git#a1d3f7daba330cdcd9e1a02083ab826908aa2e02",
+    "cukefarm": "git+ssh://git@github.com:thompsnm/cukefarm.git#e959e3d0e4e85ff30ca6ffa60d7918f65d930990",
     "express": "^4.13.1",
     "globule": "^0.2.0",
     "grunt": "^0.4.5",
